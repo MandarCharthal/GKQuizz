@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+    <title>GK Quiz</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="welcome" class="page">
+            <h1>GK Quiz</h1>
+            <table class="Instructions">
+                <tr>
+                    <th>Instructions:</th>
+                </tr>
+                <tr>
+                    <td>1. You have 2 Minute for the quiz</td>
+                </tr>
+                <tr>
+                    <td>2. Click "Start" button to start the quiz</td>
+                </tr>
+            </table>
+            <button id="startButton">Start</button>
+        </div>
+        <div id="quiz" class="page" style="display: none;">
+            <h1>GK Quiz</h1>
+            <div id="timer">Timer: <span id="time">02:00</span></div>
+            <form id="quizForm">
+                <table class="questions">
+                    <tr>
+                        <th id="question"></th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div id="optionsContainer"></div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <button type="button" id="previousButton">Previous</button>
+                            <button type="button" id="nextButton">Next</button>
+                            <button type="submit" id="submitButton">Submit</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div id="result" class="page" style="display: none;">
+            <h1>Result</h1>
+            <p id="resultMessage"></p>
+            <p id="percentage"></p>
+            <button id="restartButton">Restart</button>
+        </div>
+    </div>
+</body>
+</html>

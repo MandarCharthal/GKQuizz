@@ -1,0 +1,62 @@
+#container {
+    text-align: center;
+}
+
+.page {
+    text-align: center;
+    margin: auto;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#resultMessage.passed {
+    color: green;
+    font-size: xx-large;
+}
+
+#resultMessage.failed {
+    color: red;
+    font-size: xx-large;
+}
+#Instructions{
+    margin-left: auto;
+    margin-right: auto;
+}
+th{
+    text-align: left;
+    font-size: x-large;
+}
+td{
+    text-align: left;
+    font-size:x-large;
+}
+#questions{
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+    background-color: blueviolet;
+    border-radius: 15px;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: medium;
+    
+}
+h1{
+    font-size:50px;
+}
+#timer {
+    position: fixed;
+    bottom: 200px;
+    right: 50px;
+    font-size: 20px;
+}
